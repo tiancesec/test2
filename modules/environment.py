@@ -1,5 +1,5 @@
 import os
 
-def run(**args):
+def run():
     print("[*] In environment module.")
     return bytes(os.environ, 'utf-8')
